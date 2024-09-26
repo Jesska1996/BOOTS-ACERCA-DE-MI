@@ -1,0 +1,77 @@
+.titulo-principal {
+  margin-bottom: 60px; /* Espacio entre el título y el borde */
+  text-align: center; /* Centrar el texto en el contenedor */
+}
+/* Titulo Pincipal*/
+.titulo {
+  font-family: "Inria Sans", sans-serif;
+  color: #833ab4 !important;
+  font-size: 50px; /* Tamaño de la fuente */
+}
+
+/* Borde cuadrado*/
+.frame {
+  border: 20px solid #f2ab47 !important; /* Mantén el borde */
+  width: 400px; /* Ancho fijo de 400px */
+  height: 400px; /* Alto fijo de 400px para hacerlo cuadrado */
+  margin: 40px 20px 40px 20px; /* Margen superior e inferior, y sin margen a los lados */
+  box-sizing: border-box; /* Asegúrate de que el borde se incluya en el tamaño total */
+  position: absolute; /* Permite que se superponga a otros elementos */
+  left: 0; /* Alineado a la izquierda */
+  top: 50px; /* Ajusta este valor para que se intercepte adecuadamente con .uno */
+}
+
+/* Sobre mi*/
+.uno {
+  grid-row-start: 1;
+  width: 600px; /* Ajustado para hacerlo más largo */
+  height: 700px; /* Ajustado para mayor longitud */
+  background-color: #833ab4;
+  margin: 20px, 80px, 20px 80px; /* Aumenta el margen inferior a 40px para más espacio con el siguiente contenedor */
+  box-shadow: 0 0 3px 3px #833ab4;
+  border-radius: 9px;
+  padding: 20px; /* Top, Right, Bottom, Left - El padding inferior ahora es 10px */
+  top: 50px; /* Ajusta este valor para colocar la superposición como quieras */
+  left: 300px; /* Ajusta este valor para centrar la superposición */
+  transform: rotate(-0.6deg);
+}
+
+.carousel-item img {
+  max-width: 300px; /* Mantiene el tamaño original de la imagen */
+  height: auto;
+  border-radius: 50px;
+}
+
+.tres {
+  width: 91%;
+  height: 28%;
+  background-color:#f2ab47;
+  margin: auto;
+  box-shadow: 0 0 5px 5px #f2ab47;
+  border-radius: 30px 25px 60px 12px;
+}
+
+.col-md-6 {
+  padding: 10px; /* Añade un poco de espacio alrededor del contenido */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.img-fluid {
+  max-width: 100%; /* Hace que la imagen se ajuste al ancho de su contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+.texto-1 {
+  color: #6f2cec;
+  font-size: 30px; /* Tamaño de fuente */
+  font-weight: bold; /* Negrita */
+}
+
+.texto-2 {
+  color: #040404;
+  font-size: 14px; /* Tamaño de fuente */
+}
+.img-small {
+  width: 300px !important;
+  height: auto !important;
+}
